@@ -1,0 +1,18 @@
+.scrolling-text{
+  display: inline-block;
+  overflow: hidden;
+  margin-top: 10px;
+  white-space: nowrap;
+  display: inline-flex;
+  animation: scroll-left 50s linear infinite   ;
+  
+}
+
+@keyframes scroll-left{
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
